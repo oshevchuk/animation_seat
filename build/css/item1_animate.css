@@ -1,0 +1,75 @@
+.seat-item-1 {
+  background-color: white; }
+  .seat-item-1 #mask {
+    border: 1px solid black;
+    opacity: 0; }
+  .seat-item-1 .p4act {
+    animation: s1-seat-snima 1.5s ease 1; }
+  .seat-item-1 .p4 {
+    animation: p4-seat-snima 0.8s ease 1;
+    animation-fill-mode: forwards; }
+  .seat-item-1 .sideSeat {
+    animation: side-set 1.5s ease 2; }
+  .seat-item-1 .p2 {
+    animation: p2-seat-snima 0.8s ease 1;
+    animation-fill-mode: forwards; }
+  .seat-item-1 .p7 {
+    animation: p2-seat-snima 0.8s ease 1;
+    animation-fill-mode: forwards; }
+  .seat-item-1 .seat-top {
+    animation: seat-top 1.5s ease 1; }
+  .seat-item-1 .p6 {
+    animation: p6-seat-snima 0.4s ease 1;
+    animation-fill-mode: forwards; }
+  .seat-item-1 .seat-rol {
+    animation: seat-side-rol 1.5s ease infinite; }
+
+@keyframes seat-side-rol {
+  0% {
+    transform: translate(323px, 172px) rotate(0deg) translate(-323px, -172px); }
+  20% {
+    transform: translate(323px, 172px) rotate(-2deg) translate(-323px, -172px); }
+  70% {
+    transform: translate(323px, 172px) rotate(5deg) translate(-323px, -172px); }
+  100% {
+    transform: translate(323px, 172px) rotate(0deg) translate(-323px, -172px); } }
+
+@keyframes seat-top {
+  0% {
+    transform: translateY(0px); }
+  70% {
+    transform: translateY(-10px); } }
+
+@keyframes p6-seat-snima {
+  0% {
+    transform: translate(78px, 244px) rotate(0deg) translate(-78px, -244px); }
+  100% {
+    transform: translate(78px, 244px) rotate(8deg) translate(-78px, -244px); } }
+
+@keyframes p2-seat-snima {
+  0% {
+    transform: translate(100px, 246px) rotate(-2deg) translate(-100px, -246px); }
+  100% {
+    transform: translate(100px, 246px) rotate(8deg) translate(-100px, -246px); } }
+
+@keyframes side-set {
+  0% {
+    transform: translate(254px, 178px) rotate(-6deg) translate(-254px, -178px); }
+  100% {
+    transform: translate(254px, 178px) rotate(3deg) translate(-254px, -178px); } }
+
+@keyframes s1-seat-snima {
+  0% {
+    x: 270; }
+  15% {
+    x: 278; }
+  100% {
+    x: 270; } }
+
+@keyframes p4-seat-snima {
+  0% {
+    transform: translate(165px, 230px) rotate(0deg) translate(-165px, -230px); }
+  50% {
+    transform: translate(165px, 230px) rotate(20deg) translate(-165px, -230px); }
+  100% {
+    transform: translate(165px, 230px) rotate(0deg) translate(-165px, -230px); } }

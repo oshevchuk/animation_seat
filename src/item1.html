@@ -1,0 +1,188 @@
+<!--author oshevchuk2016.16mb.com-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!--<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/item1_animate.css">
+
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+</head>
+<body>
+
+<div class="os-container seat-item-1">
+
+    <div class="alert">
+        Select a control on the chair below or an adjustment from the listing to see control function.
+        Select (info) to see written adjustment instructions, features and benefits.
+        <b>Note:</b> All chair/arm animations shown are approximate representations; your actual chair/arm may vary
+        significantly in features and appearance.
+    </div>
+    <div class="row">
+        <div class="show">
+            <!--<canvas id="myCanvas" width="230" height="325">-->
+            <!--</canvas>-->
+            <span class="message">Controls</span>
+
+
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 450 400" style="enable-background:new 0 0 450 400;"
+     xml:space="preserve" width="450px" height="400px" class="canvas" >
+
+                <image style="overflow:visible;" width="193" height="118" xlink:href="img/item1/p5.png" x="10" y="246"></image>
+                <g id="seat-top">
+                    <image style="overflow:visible;" width="108" height="150" xlink:href="img/item1/p1.png" x="22" y="65"></image>
+                    <image style="overflow:visible;" width="167" height="69" xlink:href="img/item1/p3.png" x="20" y="190"></image>
+                    <image style="overflow:visible;" width="167" height="69" xlink:href="img/item1/p3a.png" x="20" y="190"></image>
+                    <image id="p4" style="overflow:visible;"  xlink:href="img/item1/p4.png" x="155" y="225"></image>
+                    <image id="p2" width="50" style="overflow:visible;"  xlink:href="img/item1/p2.png" x="54" y="246"></image>
+                    <image id="p7" style="overflow:visible;"  xlink:href="img/item1/p7.png" x="28" y="235"></image>
+                    <image id="p6" style="overflow:visible;"  xlink:href="img/item1/p6.png" x="43" y="244"></image>
+                </g>
+                <g id="seat-rol">
+                    <image id="sideSeat" style="overflow:visible;"  xlink:href="img/item1/p1side.png" x="250" y="44"></image>
+                    <image id="p4act" xlink:href="img/item1/p3aside.png" x="270" y="144"></image>
+                    <image style="overflow:visible;"  xlink:href="img/item1/p3side.png" x="256" y="160"></image>
+                </g>
+                <image style="overflow:visible;"  xlink:href="img/item1/p3side2.png" x="313" y="172"></image>
+                <image id="mask" style="overflow:visible;"  xlink:href="img/item1/controlsMask.png" x="17" y="193"></image>
+            </svg>
+        </div>
+        <!--<div class="os-controls">-->
+            <!--<p>Select an adjustment:</p>-->
+            <!--<ul>-->
+                <!--<li><a class="os-adjustments" data-action="Sliding-Seat">Sliding Seat</a></li>-->
+                <!--<li><a class="os-adjustments" data-action="Tilting">Tilting</a></li>-->
+                <!--<li><a class="os-adjustments" data-action="Pneumatic-Lift">Pneumatic Lift</a></li>-->
+                <!--<li><a class="os-adjustments" data-action="	Tilting-Backrest">Tilting Backrest</a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+
+
+        <div>
+                <span class="mes-info">
+                    Select an adjustment to the right, or a control above.
+                </span>
+            <div class="actions">
+                <div class="title">
+                        <span>
+                        Adjustments
+                            </span>
+                </div>
+                <table class="action-list">
+                    <tr>
+                        <td>1.</td>
+                        <td><a class="link-action" data-action="p4">Sliding Seat</a></td>
+                        <td><a class="info-action" data-actioni="i1"><i class="fa fa-info-circle"
+                                                                        aria-hidden="true"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td><a class="link-action" data-action="p2">Tilting</a></td>
+                        <td><a class="info-action" data-actioni="i2"><i class="fa fa-info-circle"
+                                                                        aria-hidden="true"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td><a class="link-action" data-action="p6">Pneumatic Lift</a></td>
+                        <td><a class="info-action" data-actioni="i3"><i class="fa fa-info-circle"
+                                                                        aria-hidden="true"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td><a class="link-action" data-action="p7">Tilting Backrest</a></td>
+                        <td><a class="info-action" data-actioni="i4"><i class="fa fa-info-circle"
+                                                                        aria-hidden="true"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+
+        <div class="modal">
+            <div class="modal-head">Adjustment information</div>
+            <div class="close">Close info <span></span></div>
+            <div class="modal-content">
+                <div class="variant" id="i1">
+
+                    <p>Sliding Seat</p>
+                    <p>Benefit: Using this adjustment will allow you to change the depth of you seat so that it
+                        can be better suited to the length of your legs. Users of different heights will want to
+                        either lengthen or shorten the seat depth so that the appropriate amount of your legs will
+                        be
+                        supported.</p>
+                    <p>Adjustment Details: To use this control, locate the paddle on your left hand side. Next?
+                        while holding this paddle in an "up" position, cautiously use a slight @scooting@
+                        motion with your body (as you are seated in the chair) to make the seat's depth either
+                        increase or decrease.</p>
+
+                </div>
+                <div class="variant" id="i2">
+                    <p>Tilling</p>
+                    <p>Benefit: Being able to change the tilling angle of your backrest means that you can contact
+                        that you back makes with the backrest. Set the angle adjustment at a closed angle relative
+                        to the seat in order to allow more constant contact, or at a an open angle relative to the
+                        seat in order to have the backrest make less contact with your back.</p>
+                    <p>Adjustment Details: You backrest tilling angle can be adjusted with a single level as shown
+                        in the demoWith some chair models, you will need to hold up the backrest tilling angle while
+                        making your adjustment, and then release the level to lock the backrest at a specific
+                        tilting angle. While the level is unlocked, you can use your body weight to lean back and
+                        forth to change the tilling angle</p>
+                    <p></p>
+                </div>
+                <div class="variant" id="i3">
+                    <p>Pneumatic Lift</p>
+                    <p>Benefit: Using this control allows you to change the height level of your seat to better suit
+                        your individual preference as determined by your height.</p>
+                </div>
+                <div class="variant" id="i4">
+                    <p>Tilling Backrest</p>
+                    <p>Benefit: Being able to change the tilling angle of your backrest means that you can contact
+                        that you back makes with the backrest. Set the angle adjustment at a closed angle relative
+                        to the seat in order to allow more constant contact, or at a an open angle relative to the
+                        seat in order to have the backrest make less contact with your back.</p>
+                    <p>Adjustment Details: You backrest tilling angle can be adjusted with a single level as shown
+                        in the demoWith some chair models, you will need to hold up the backrest tilling angle while
+                        making your adjustment, and then release the level to lock the backrest at a specific
+                        tilting angle. while the level is unlocked, you can use your body weight to lean back and
+                        forth to change the tilling angle</p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="js/item1.js"></script>
+</body>
+</html>

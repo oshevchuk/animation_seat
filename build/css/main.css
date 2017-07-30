@@ -6,9 +6,6 @@ body {
   background-color: rgba(50, 50, 50, 0.3);
   font-family: 'Raleway', sans-serif; }
 
-body .canvas {
-  border: 1px solid grey; }
-
 .os-container {
   border: 1px solid darkgrey;
   width: 70%;
@@ -28,14 +25,14 @@ body .canvas {
       .os-container .os-controls .os-adjustments:hover {
         background-color: grey; }
 
+#mask {
+  opacity: 0; }
+
 .hiden {
   border: 1px solid grey; }
 
 .hides {
   animation: hideshow 1s ease infinite; }
-
-.slidingSeat {
-  animation: SlidingSeat-Animaion 1.5s ease infinite; }
 
 .pneumaticTilt image {
   animation: pneumaticTilt-Animaion 1.5s ease 1; }
@@ -54,14 +51,6 @@ body .canvas {
   100% {
     opacity: 1;
     x: 20; } }
-
-@keyframes SlidingSeat-Animaion {
-  0% {
-    x: 252; }
-  15% {
-    x: 248; }
-  100% {
-    x: 252; } }
 
 @keyframes pneumaticTilt-Animaion {
   0% {

@@ -11,7 +11,7 @@ body{
 
 body{
   .canvas{
-    border: 1px solid grey;
+    //border: 1px solid grey;
   }
 }
 
@@ -44,10 +44,9 @@ body{
   }
 }
 
-
 #mask{
   //border: 1px solid black;
-  //opacity: 0;
+  opacity: 0;
 }
 
 .hiden{
@@ -59,9 +58,9 @@ body{
   animation: hideshow 1s ease infinite;
 }
 
-.slidingSeat {
-  animation: SlidingSeat-Animaion 1.5s ease infinite;
-}
+//.slidingSeat {
+//  animation: SlidingSeat-Animaion 1.5s ease infinite;
+//}
 .pneumaticTilt image{
   animation: pneumaticTilt-Animaion 1.5s ease 1;
 }
@@ -82,17 +81,17 @@ body{
   }
 }
 
-@keyframes SlidingSeat-Animaion {
-  0% {
-    x:252;
-  }
-  15%{
-    x:248;
-  }
-  100% {
-    x:252;
-  }
-}
+//@keyframes SlidingSeat-Animaion {
+//  0% {
+//    x:252;
+//  }
+//  15%{
+//    x:248;
+//  }
+//  100% {
+//    x:252;
+//  }
+//}
 
 @keyframes pneumaticTilt-Animaion {
   0% {

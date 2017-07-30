@@ -1,0 +1,71 @@
+.seat-item-2 .p4side {
+  animation: SlidingSeat-Animaion 1.5s ease 2; }
+
+.seat-item-2 .p4 {
+  animation: p4-seat-snima 0.8s ease 1; }
+
+.seat-item-2 .p7 {
+  animation: p7-bone 0.8s ease 1; }
+
+.seat-item-2 .p7side {
+  animation: p7-side 1.5s ease 1; }
+
+.seat-item-2 .p6 {
+  animation: p7-bone 1.8s ease 1; }
+
+.seat-item-2 .p6side {
+  animation: p6-side 1.5s ease 1; }
+
+.seat-item-2 .p9 {
+  animation: p7-bone 1.8s ease 1; }
+
+.seat-item-2 .p9side {
+  animation: p9-side 1.5s ease 1; }
+
+@keyframes SlidingSeat-Animaion {
+  0% {
+    x: 252; }
+  15% {
+    x: 248; }
+  100% {
+    x: 252; } }
+
+@keyframes p6-side {
+  0% {
+    transform: translateY(0px); }
+  25% {
+    transform: translateY(-8px); }
+  100% {
+    transform: translateY(2px); } }
+
+@keyframes p9-side {
+  0% {
+    transform: translate(300px, 220px) rotate(0deg) translate(-300px, -220px); }
+  50% {
+    transform: translate(300px, 220px) rotate(-4deg) translate(-300px, -220px); }
+  100% {
+    transform: translate(300px, 220px) rotate(0deg) translate(-300px, -220px); } }
+
+@keyframes p4-seat-snima {
+  0% {
+    transform: translate(150px, 220px) rotate(0deg) translate(-150px, -220px); }
+  50% {
+    transform: translate(150px, 220px) rotate(15deg) translate(-150px, -220px); }
+  100% {
+    transform: translate(150px, 220px) rotate(0deg) translate(-150px, -220px); } }
+
+@keyframes p7-bone {
+  0% {
+    transform: translate(90px, 220px) rotate(0deg) translate(-90px, -220px); }
+  50% {
+    transform: translate(90px, 220px) rotate(10deg) translate(-90px, -220px); }
+  100% {
+    transform: translate(90px, 220px) rotate(0deg) translate(-90px, -220px); } }
+
+@keyframes p7-side {
+  0% {
+    transform: translate(290px, 220px) rotate(0deg) translate(-290px, -220px); }
+  50% {
+    transform: translate(290px, 220px) rotate(-5deg) translate(-290px, -220px); }
+  100% {
+    transform: translate(290px, 220px) rotate(0deg) translate(-290px, -220px); } }

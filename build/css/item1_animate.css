@@ -1,8 +1,5 @@
 .seat-item-1 {
   background-color: white; }
-  .seat-item-1 #mask {
-    border: 1px solid black;
-    opacity: 0; }
   .seat-item-1 .p4act {
     animation: s1-seat-snima 1.5s ease 1; }
   .seat-item-1 .p4 {

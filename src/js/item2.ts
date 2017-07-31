@@ -72,6 +72,7 @@ s.add(new SeatControl(60, "p6", "p6select.png", "p6.png"));
 s.add(new SeatControl(70, "p7", "p7select.png", "p7.png"));
 s.add(new SeatControl(80, "p8", "p8select.png", "p8.png"));
 s.add(new SeatControl(90, "p9", "p9select.png", "p9.png"));
+s.add(new SeatControl(10, "p10", "p10.png", ""));
 
 // console.log( s.findByColor(20));
 
@@ -132,6 +133,34 @@ function BindClick(clicked){
                         freez = false;
                     }, 1500);
                 }, 800);
+                break;
+
+            case 'p1':
+                $('#p1action').addClass('p1action');
+                setTimeout(function () {
+                    $('#p1action').removeClass('p1action');
+                        freez = false;
+                }, 1500);
+                break;
+
+            case 'p8':
+                $('#arrow-r').show();
+                $('#p9side').addClass('p9side-p8');
+                setTimeout(function () {
+                    $('#p9side').removeClass('p9side-p8');
+                        freez = false;
+                    $('#arrow-r').hide();
+                }, 1500);
+                break;
+
+            case 'p10':
+                $('#p10ar').show();
+                $('#p9side').addClass('p9side');
+                setTimeout(function () {
+                    $('#p9side').removeClass('p9side');
+                        freez = false;
+                    $('#p10ar').hide();
+                }, 1500);
                 break;
 
             default:

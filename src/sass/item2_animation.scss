@@ -22,10 +22,27 @@
   .p9{
     animation: p7-bone 1.8s ease 1;
   }
+  .p9side-p8{
+    animation: p-bone 1.8s ease infinite;
+  }
   .p9side{
     animation: p9-side 1.5s ease 1;
   }
+
+  .p1action{
+    animation: p6-side 1.5s ease 1;
+  }
+
+  #arrow-r{
+    display: none;
+    animation: arrow 3s ease infinite;
+  }
+  #p10ar{
+    display: none;
+  }
 }
+
+
 
 @keyframes SlidingSeat-Animaion {
   0% {
@@ -51,6 +68,17 @@
   }
 }
 
+@keyframes arrow {
+  0% {
+    transform: translate(100px, 248px) rotate( 0deg) translate(-100px, -248px)
+  }
+  50% {
+    transform: translate(100px, 248px) rotate( 360deg) translate(-100px, -248px)
+  }
+  100% {
+    transform: translate(100px, 248px) rotate( 0deg) translate(-100px, -248px)
+  }
+}
 @keyframes p9-side {
   0% {
     transform: translate(300px, 220px) rotate( 0deg) translate(-300px, -220px)
@@ -84,6 +112,20 @@
   }
   100% {
     transform: translate(90px, 220px) rotate( 0deg) translate(-90px, -220px)
+  }
+}
+@keyframes p-bone{
+  0% {
+    transform: translate(300px, 220px) rotate( 0deg) translate(-300px, -220px)
+  }
+  50% {
+    transform: translate(300px, 220px) rotate( 4deg) translate(-300px, -220px)
+  }
+  70% {
+    transform: translate(300px, 220px) rotate( 4deg) translate(-300px, -220px)
+  }
+  100% {
+    transform: translate(300px, 220px) rotate( 0deg) translate(-300px, -220px)
   }
 }
 @keyframes p7-side{
